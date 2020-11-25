@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "solver2",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authsolver2a54c5a21",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

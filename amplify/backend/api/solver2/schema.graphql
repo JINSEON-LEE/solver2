@@ -1,0 +1,11 @@
+type Problem @model {
+  id: ID!
+  subject: String!
+  description: String
+  option: String
+  username: String
+  regist: AWSDate
+  deadline: AWSDate
+  solvername: String
+  solved: Boolean
+}
